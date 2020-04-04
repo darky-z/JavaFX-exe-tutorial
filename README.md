@@ -50,11 +50,15 @@ The `%Path_to_javafx_jmods%` is the path to where your javafx jmods folder is on
 **Note:** Unlike when you are compiling the source files, you can only use the path to the jmods folder when using jpackage. You cannot use the javafx SDK lib path in this case.
 
 `--type` specifies the type of native bundle to package the application into.
-`n`specifies what you want to name your application.
+
+`-n`specifies what you want to name your application.
+
 `--module-path` has been explained above.
+
 `-m` is the module name followed by the main class name after the `/`.
+
 `--win-shortcut` will make your app put a shortcut on the desktop when it installs.
 
-Once jpackage runs it will generate an exe with the name you specified with the `-n` option. For this demo it will generate `Hello.exe`. Once you run it it will install our modular app and put a shortcut on the desktop.
+Once jpackage runs it will generate an exe with the name you specified with the `-n` option. For this demo it will generate `Hello.exe`. Once you run it, it will install our modular app and put a shortcut on the desktop.
 
 That's it for this tutorial! Be sure to check out [jpackage](https://docs.oracle.com/en/java/javase/14/docs/specs/man/jpackage.html#jpackage-options) and see what other options it has to offer. You can also check out [this](https://www.youtube.com/watch?v=ZGW9AalZLN4) YouTube video about jpackage with some demos.
