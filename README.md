@@ -51,7 +51,7 @@ The `%Path_to_javafx_jmods%` is the path to where your javafx jmods folder is on
 
 `--type` specifies the type of native bundle to package the application into.
 
-`-n`specifies what you want to name your application.
+`-n` specifies what you want to name your application.
 
 `--module-path` has been explained above.
 
